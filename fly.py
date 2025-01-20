@@ -40,8 +40,8 @@ for p in range(a):
 
         kill_fly += sample[i][j]
         X_kill_fly += sample[i][j]
-        print(kill_fly)
-        print(X_kill_fly)
+        # print(kill_fly)
+        # print(X_kill_fly)
         if X_kill_fly >= kill_fly:
             fly = X_kill_fly
         else:
@@ -50,3 +50,5 @@ for p in range(a):
             max_kill = fly
 print("#"+str(p+1),end=" ")
 print(max_kill)
+
+
